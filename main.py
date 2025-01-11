@@ -52,10 +52,9 @@ Welcome to our Event Ticketing System. Enter a number to begin.
                 User.register(ticket_system)
             case '2':
                 pass
-        # if user_action == '1':
-        #     User.register(ticket_system)
 
-    # process tickets
+    # Sort tickets by priority
+
     while ticket_system.tickets:
         #process tickets
         print(heapq.heappop(ticket_system))
